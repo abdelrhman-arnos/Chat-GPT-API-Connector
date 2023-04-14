@@ -16,4 +16,4 @@ Once the application is running, enter your desired input into the console and p
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Before doing so, please review the contributing guidelines for this project.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://raw.githubusercontent.com/abdelrhman-arnos/Chat-GPT-API-Connector/main/LICENSE).
