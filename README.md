@@ -10,7 +10,15 @@ To install this application, follow these steps:
 4. Run the application by executing python `chat_gpt.py`
 
 ## Usage
-Once the application is running, enter your desired input into the console and press enter. The application will generate a response using the Chat-GPT API and display it in the console.
+Before you run this script, you'll need to set up an OpenAI API key by following the instructions here: https://beta.openai.com/docs/api-reference/authentication. Once you have an API key, you can store it as an environment variable named OPENAI_API_KEY.
+
+To run the script, navigate to the directory containing the script in your terminal and enter the following command:
+```
+python chat_gpt_api.py
+```
+The script will send the prompt "Hello, how are you?" to the Chat-GPT API using the text-davinci-002 model. The temperature parameter controls the "creativity" of the response, and the max_tokens parameter determines the maximum length of the response. The script prints the generated response to the console.
+
+Of course, you can modify the script to prompt the user for input, use a different model, or generate more than one response.
 
 ## Contributing
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Before doing so, please review the contributing guidelines for this project.
